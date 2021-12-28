@@ -1,6 +1,6 @@
 * **Name:** Alexey Zayc
 * **Contacts:** alexalexzayczayc@gmail.com
-* **About myself:** Experinced in managing a small web-company as an owner. Lifelong learning and self-development are crucial for me. Eager to study all new technologies in frontend development. 
+* **About myself:** Experienced in managing a small web-company as an owner. Lifelong learning and self-development are crucial for me. Eager to study all new technologies in frontend development. 
 * **Skills:**
   * HTML5
   * CSS3/SASS
