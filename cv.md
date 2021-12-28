@@ -5,6 +5,7 @@
   * HTML5
   * CSS3/SASS
   * JavaScript
+  * Webpack
   * Bootstrap
   * GIT
   * Photoshop/Figma
