@@ -1,1 +1,44 @@
-2
+.cv__header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.person__img {
+  border-radius: 50%;
+  border: 3px solid rgb(56, 50, 50);
+}
+
+.person__name {
+  padding-top: 5px;
+}
+
+.cv__content {
+  /* margin: 0 auto; */
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cv__content a,
+.cv__footer a {
+  color: rgb(56, 50, 50);
+}
+
+.cv__code {
+  display: block;
+  padding: 10px 0px;
+  font-size: 16px;
+}
+
+.cv__list li {
+  padding: 10px 0px;
+}
+
+.school__img {
+  width: 190px;
+  height: auto;
+}
+
+.cv__footer {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
