@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <title>My CV - Alexey Zayc</title>
+  </head>
+  <body>
+    <header class="cv__header container">
+      
+	  
+	  <nav class="navbar">
+   
+		
+		
+		
+		
+		<ul class="navbar__list">
+		    <li class="navbar__item"><a class="nav-item nav-link active" href="#myself">Myself</a></li>
+            <li class="navbar__item"><a class="nav-item nav-link" href="#contacts">Contacts</a></li>
+            <li class="navbar__item"><a class="nav-item nav-link" href="#about">About</a></li>
+            <li class="navbar__item"><a class="nav-item nav-link" href="#skills">Skills</a></li>
+            <li class="navbar__item"><a class="nav-item nav-link" href="#experience">Experience</a></li>
+		
+		</ul>
+		
+      </nav>
+	  
+	  
+	  
+    </header>
+    <main class="cv__content container">
+      <a id="myself"></a>
+      <figure class="person text-center">
+        <img
+          class="person__img mx-auto"
+          src="images/avatar-alex.jpg"
+          alt="Alex Zayc"
+        />
+        <figcaption class="person__name text-center">
+          <h1>Alexey Zayc</h1>
+        </figcaption>
+      </figure>
+
+      <ul class="cv__list">
+        <li>
+          <a id="contacts"></a>
+          <b>Contacts:</b>
+          <ul>
+            <li>
+              <a href="mailto:alexalexzayczayc@gmail.com"
+                >alexalexzayczayc@gmail.com</a
+              >
+            </li>
+		  <li><a href="#">Discord - perroentucasa#2133</a></li>
+          </ul>
+        </li>
+        <li>
+          <a id="about"></a> <b>About myself:</b> Experinced in managing a small
+          web-company as an owner. Lifelong learning and self-development are
+          crucial for me. Eager to study all new technologies in frontend
+          development.
+        </li>
+
+        <li>
+          <a id="skills"></a>
+          <b>Skills:</b>
+
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3/SASS</li>
+            <li>JavaScript</li>
+		  <li>Webpack</li>
+            <li>Bootstrap</li>
+            <li>GIT</li>
+            <li>Photoshop/Figma</li>
+          </ul>
+        </li>
+
+        <li>
+          <b>Code example:</b>
+          <code class="cv__code">
+            function century(year) {<br />
+            let fullLength = year.toString().length;<br />
+            <br />
+            if (year%100 == 0) {return
+            Number(year.toString().slice(0,fullLength-2))}<br />
+            else return Number(year.toString().slice(0,fullLength-2))+1;<br />
+            <br />
+            };
+          </code>
+        </li>
+
+        <li>
+          <a id="experience"></a><b>Experience:</b> 2 years of web-development:
+          html/css developer. Created several web-sites based on CMS: Joomla,
+          Bitrix, WordPress.
+        </li>
+        <li>
+          <b>Education/cources:</b> Graduated from Voronezh State Technical
+          University with a degree in Information Systems and Technology.
+          Completed few JavaScript and Web-development cources on Udemy and
+          Coursera.
+        </li>
+        <li><b>English level:</b> B2 (Upper Intermediate)</li>
+      </ul>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="card-img-top"
+                src="images/example-1.JPG"
+                alt="My GIT account"
+              />
+              <div class="card-body">
+			  <h2>My CV project</h2>
+                <p class="card-text">
+                  HTML <br />
+                  CSS <br />
+                  JavaScript
+                </p>
+				<a href="https://perroentucasa.github.io/rsschool-cv/">perroentucasa.github.io/rsschool-cv/</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="card-img-top"
+                src="images/example-1.JPG"
+                alt="My GIT account"
+              />
+              <div class="card-body">
+			  <h2>My CV project</h2>
+                <p class="card-text">
+                  HTML <br />
+                  CSS <br />
+                  JavaScript
+                </p>
+				<a href="https://perroentucasa.github.io/rsschool-cv/">perroentucasa.github.io/rsschool-cv/</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                class="card-img-top"
+                src="images/example-1.JPG"
+                alt="My GIT account"
+              />
+              <div class="card-body">
+			  <h2>My CV project</h2>
+                <p class="card-text">
+                  HTML <br />
+                  CSS <br />
+                  JavaScript
+                </p>
+				<a href="https://perroentucasa.github.io/rsschool-cv/">perroentucasa.github.io/rsschool-cv/</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="cv__footer container">
+      <a href="https://github.com/perroentucasa/"
+        ><h2>https://github.com/perroentucasa/</h2></a
+      >
+      :: 2021<br />
+
+      <figure class="school">
+        <a href="https://rs.school/js/"><img
+          class="school__img"
+          src="https://rs.school/images/rs_school_js.svg"
+          alt="RS-School Logo"
+        /></a>
+        <figcaption class="school__link">
+          <a href="https://rs.school/js/">rs.school/js/</a>
+        </figcaption>
+      </figure>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
